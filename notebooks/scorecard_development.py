@@ -326,7 +326,7 @@ print(scorecard_df.head(20).to_string(index=False))
 # ## 10. Full evaluation report
 #
 # This section produces the four key diagnostics that were missing from
-# the original pipeline:
+# the scorecard implementations:
 #
 # 1. **ROC curve**: discrimination performance
 # 2. **Reliability diagram**: calibration — are predicted probabilities accurate?
