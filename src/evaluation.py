@@ -15,7 +15,7 @@ Three distinct questions
    default rates.
    Measured by: reliability diagrams, Hosmer-Lemeshow test, Brier score.
 
-   This was missing from the original pipeline. For a lending scorecard,
+   This was missing from the scorecard implementations. For a lending scorecard,
    calibration matters because:
    - Pricing decisions depend on expected loss = PD × LGD × EAD
    - If PD is systematically biased, pricing is wrong even if ranking is right
