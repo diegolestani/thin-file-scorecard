@@ -5,7 +5,7 @@ Variable selection via LASSO logistic regression.
 
 Why LASSO instead of stepwise-by-IV
 -------------------------------------
-The original pipeline selected variables by:
+The common approach selected variables by:
 1. Ranking within clusters by IV (univariate)
 2. Adding sequentially to models
 3. Keeping significant coefficients from the final model
