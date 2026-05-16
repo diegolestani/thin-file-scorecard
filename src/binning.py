@@ -88,7 +88,7 @@ VARIABLE_CLUSTERS = {
     ],
     "document_compliance": [
         # Binary flags for documents submitted — analogous to photo submission
-        # variables in the original Numida pipeline. The inference is that
+        # variables in the original thin-file lending pipeline. The inference is that
         # willingness to submit documentation is a behavioral signal of
         # creditworthiness, independent of the document content.
         "FLAG_DOCUMENT_3",
